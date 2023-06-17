@@ -1,0 +1,36 @@
+.login__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+    img {
+        width: 100px;
+        margin-bottom: 30px;
+    }
+
+    .login__form-form {
+        margin-bottom: 80px;
+
+        input {
+            display: block;
+            width: 350px;
+            border: 1px solid #dadada;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+            outline: none;
+        }
+
+        button {
+            display: block;
+            width: 350px;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+            background-color: #2fb5fa;
+            outline: none;
+            border: none;
+            color: #fff;
+        }
+    }
+}

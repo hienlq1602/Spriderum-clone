@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.scrollToTopButton {
+    background-color: #2fb5fa;
+    color: #fff;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    bottom: 50px;
+    right: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: .2s;
+    cursor: pointer;
+}

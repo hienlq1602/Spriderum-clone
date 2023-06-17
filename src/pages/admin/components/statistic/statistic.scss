@@ -1,0 +1,23 @@
+.statistic {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistic__content {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+
+    h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #333;
+    }
+}

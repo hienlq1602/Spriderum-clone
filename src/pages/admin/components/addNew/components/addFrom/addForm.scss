@@ -1,0 +1,37 @@
+.admin__addnew__uploadForm {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    div {
+        span {
+            text-transform: capitalize;
+            font-weight: bold;
+            color: #5c5c5c;
+        }
+
+        input {
+            display: block;
+
+            &[type=text] {
+                width: 100%;
+                padding: 10px 15px;
+                border: 1px solid #d1d1d1;
+                border-radius: 5px;
+                outline: none;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.admin__addnew-btn {
+    margin-top: 20px;
+    border: none;
+    background-color: #4da3d1;
+    border-radius: 10px;
+    padding: 8px 30px;
+    color: #fff;
+}

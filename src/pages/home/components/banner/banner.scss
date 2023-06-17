@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 515px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner__text {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 700px;
+    h1 {
+        font-size: 55px;
+        background: linear-gradient(to right, #262544 0%, #298cc4 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1px solid #333;
+        border-radius: 20px;
+        padding: 8px 50px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) {
+    .banner {
+            display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 1050px and up) */
+@media only screen and (max-width: 1050px) {
+    .banner__text {
+        width: auto;
+        right: 100px;
+    }
+}

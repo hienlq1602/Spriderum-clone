@@ -1,0 +1,72 @@
+.topics__form {
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    padding: 1rem;
+
+    img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 30px 0;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: justify;
+
+        span {
+            color: #3d85c6;
+        }
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: normal;
+        color: #555;
+        text-align: justify;
+    }
+
+    form {
+        margin-top: 20px;
+
+        input {
+            display: block;
+            width: 100%;
+            border-radius: 15px;
+            border: 1px solid #dddddd;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+        }
+
+        button {
+            border: none;
+            padding: 6px 20px;
+            background-color: #3398d4;
+            border-radius: 15px;
+            min-width: 100px;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 15px;
+        }
+    }
+
+    div {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 30px;
+
+        img {
+            width: 30px;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: #00a4bd;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

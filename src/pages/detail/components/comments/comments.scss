@@ -1,0 +1,108 @@
+.detail__comments {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    padding: 50px; 
+    box-sizing: border-box;
+    margin: 50px 0;
+    box-shadow: 1px 1px 10px #e7e7e7;
+}
+
+.detail__comments__new {
+    border-bottom: 1px solid #dbdbdb;
+    position: relative;
+
+    div {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 10px;
+        padding-right: 50px;
+
+        &:empty:before {
+            content: attr(data-placeholder);
+            color: gray
+        }
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 5px;
+        top: 0px;
+    }
+}
+
+.detail__comments__old {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.detail__comments__no-comment {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .no-comment__icon-rectangle {
+        width: 120px;
+        height: 80px;
+        background-color: #dddddd;
+        border-radius: 6px;
+    }
+
+    .no-comment__icon-triangle {
+        width: 0;
+        height: 0;
+        border-right: 22px solid transparent;
+        border-top: 22px solid #ddd;
+        margin-right: 40px;
+    }
+
+    h4 {
+        font-size: 14px;
+        color: #a3a3a3;
+        font-weight: normal;
+        margin-top: 40px;
+    }
+}
+
+.commentItem {
+    width: 100%;
+    margin-top: 20px;
+
+    .commentItem__author {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50px;
+            margin-right: 15px;
+        }
+
+        div {
+            h4 {
+                font-size: 16px;
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
+                font-size: 14px;
+                color: #8b8b8b;
+            }
+        }
+    }
+
+    .commentItem__content p {
+        font-size: 15px;
+    }
+}
+

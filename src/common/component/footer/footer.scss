@@ -1,0 +1,131 @@
+.footer {
+    height: 300px;
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+    border-top: 1px solid #e6e6e6;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    img {
+        width: 110px;
+        height: auto;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin-left: 80px;
+        justify-content: space-between;
+        flex-grow: 1;
+        li {
+            list-style: none;
+            &:first-child {
+                a {
+                    margin-right: 40px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            }
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+
+            &:last-child {
+                color: #999999;
+                font-size: 12px;
+                img {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.footer__bottom {
+    display: flex;
+    margin: 50px 0;
+    div {
+        width: calc(100% / 3);
+        padding-right: 30px;
+
+        h4 {
+            font-size: 14px;
+            color: #999999;
+        }
+
+        p {
+            font-size: 12px;
+            color: #999999;
+            margin: 0;
+        }
+    }
+}
+
+.footer__protected {
+    padding-bottom: 50px;
+
+    img {
+        width: 90px;
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 1050px and down) */
+@media only screen and (max-width: 1050px) {
+    .footer {
+        padding: 0 50px;
+
+        .footer__top {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            ul {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-left: 0;
+                padding: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 800px) {
+    .footer__bottom {
+        flex-wrap: wrap;
+        div {
+            width: calc(100% / 2);
+            padding-right: 30px;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer__bottom {
+            div {
+                width: 100%;
+                padding-right: 30px;
+                margin-top: 20px;
+            }
+        }
+}
+
+
+

@@ -1,0 +1,124 @@
+.postlist {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 95vh;
+}
+
+.postlist__search-addnew {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0 10px;
+    display: flex;
+
+    .postlist__input {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        div input {
+            display: block;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid #dfdfdf;
+            padding: 5px 10px;
+            margin-right: 10px;
+            outline: none;
+        }
+    }
+
+    .postlist__search-addnew__button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-grow: 1;
+
+        button, a {
+            border: none;
+            border-radius: 5px;
+            padding: 8px 25px;
+            margin-left: 10px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .postlist__search__button button {
+            background-color: #59b9ec;
+        }
+
+        .postlist__addnew__button a {
+            background-color: #F9D949;
+            text-decoration: none;
+            display: block;
+        }
+    }
+}
+
+.postlist__content {
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    min-height: 50px;
+    height: auto;
+    padding: 20px;
+
+    h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #383838;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    tr {
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    th, td {
+        color: #464646;
+        margin: 15px 0;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    td:first-child, th:first-child {
+        text-align: center;
+        width: 50px;
+        margin-right: 50px;
+    }
+
+    td:nth-child(2) {
+        max-width: 300px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    td:last-child, td:nth-child(5) {
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        border-radius: 10px;
+        padding: 5px 20px;
+        color: #fff;
+        background-color: #59b9ec;
+    }
+
+    td:last-child button {
+        background-color: #FF6D60;
+    }
+}
