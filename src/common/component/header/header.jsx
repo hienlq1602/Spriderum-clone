@@ -29,7 +29,7 @@ const Header = () => {
                     <ul>
                         <li><a href="https://www.facebook.com/Spiderum" target='_blank'><CgFacebook /></a></li>
                         <li><a href="https://www.youtube.com/spiderum" target='_blank'><AiFillYoutube /></a></li>
-                        <li><a href="https://github.com/haiNguyenV" target='_blank'><AiFillGithub /></a></li>
+                        <li><a href="https://github.com/hienlq1602/Spriderum-clone" target='_blank'><AiFillGithub /></a></li>
                         <li><a href="https://shopee.vn/spiderum?referer=at-kol-new&utm_campaign=-&utm_content=1345738-nmNuO7mvEpmQMaBNeFh54sbTQD5r2VWoaD3x2z6XwQ3Xo8K1-spiderum.com--&utm_medium=affiliates&utm_source=an_17156540000&utm_term=93nz3nmzvkw2" target='_blank'><HiShoppingCart /> Spider's Shop</a></li>
                     </ul>
                 </div>
